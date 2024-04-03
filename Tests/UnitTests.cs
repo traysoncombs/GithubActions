@@ -27,7 +27,7 @@ namespace GithubActionsLab
 
             Assert.AreEqual(4, Program.Power("2", "2"));
             Assert.AreEqual(32, Program.Power("2", "5"));
-            Assert.AreEqual(250, Program.Power("5", "2"));
+            Assert.AreEqual(25, Program.Power("5", "2"));
         }
 
         [Test]
